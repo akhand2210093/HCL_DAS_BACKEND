@@ -1,4 +1,4 @@
-# Healthcare Appointment Management System
+# Doctor Appointment System
 
 This project is a comprehensive appointment booking system designed to manage doctors, patients, schedules, and appointments. The backend is built using **Django REST Framework (DRF)**, providing robust API endpoints, while the frontend is built using **Streamlit** for a simple and interactive user interface.
 
