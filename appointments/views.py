@@ -15,7 +15,7 @@ class SpecialtyViewSet(viewsets.ModelViewSet):
 
 
 class DoctorViewSet(viewsets.ModelViewSet):
-    queryset = Doctor.objects.all()
+    queryset = Doctor.objects.select_related('specialty').all()
     serializer_class = DoctorSerializer
 
     def get_queryset(self):
